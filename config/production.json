@@ -2,5 +2,5 @@
   "port": 5000,
   "jwtKey": "nikita kondratyev mern app",
   "mongoURI": "mongodb+srv://nikita:68807@clusterirl-mmfrn.azure.mongodb.net/app?retryWrites=true&w=majority",
-  "baseURL": "https://sleepy-citadel-49102.herokuapp.com/"
+  "baseURL": "https://sleepy-citadel-49102.herokuapp.com"
 }
