@@ -1,0 +1,12 @@
+.loader {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 75px;
+  justify-content: center;
+}
+
+.loader > span {
+  margin-left: 15px;
+  font-weight: bold;
+}

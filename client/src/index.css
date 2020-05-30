@@ -1,0 +1,15 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+  /*background-color: #21D4FD;*/
+  /*background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);*/
+  background-size: cover;
+  background: linear-gradient(to right, #02aab0, #00cdac); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

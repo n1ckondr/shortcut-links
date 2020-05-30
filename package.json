@@ -1,0 +1,40 @@
+{
+  "name": "mern-app",
+  "version": "1.0.0",
+  "description": "MERN Application (Full-stack development)",
+  "main": "app.js",
+  "scripts": {
+    "run": "cross-env NODE_ENV=production node app.js",
+    "server": "nodemon app.js",
+    "client": "yarn --cwd ./client start",
+    "client:install": "yarn --cwd ./client install",
+    "client:build": "yarn --cwd ./client build",
+    "dev": "cross-env NODE_ENV=development concurrently \"yarn server\" \"yarn client\"",
+    "heroku:postbuild": "YARN_CONFIG_PRODUCTION=false yarn --cwd ./client install && yarn --cwd ./client build"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongo"
+  ],
+  "author": "Nikita Kondratyev <nickondr.produciton@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.16",
+    "shortid": "^2.2.15",
+    "startbootstrap-sb-admin-2": "^4.0.7"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
